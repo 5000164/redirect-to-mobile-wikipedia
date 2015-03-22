@@ -1,16 +1,14 @@
 {
   "name": "redirect to mobile wikipedia",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "description": "redirect to mobile wikipedia",
   "permissions": [
     "webRequest",
+    "webRequestBlocking",
     "*://ja.wikipedia.org/*"
   ],
-  "content_scripts": [
-    {
-      "matches": ["*://ja.wikipedia.org/*"],
-      "js": ["myscript.js"]
-    }
-  ]
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
