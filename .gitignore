@@ -1,3 +1,5 @@
 .idea
+tsd.json
+typings
 redirect-to-mobile-wikipedia.crx
 redirect-to-mobile-wikipedia.pem
